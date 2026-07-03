@@ -92,6 +92,9 @@ importers:
       '@tiptap/extension-color':
         specifier: 3.11.0
         version: 3.11.0(@tiptap/extension-text-style@3.11.0(@tiptap/core@3.11.0(@tiptap/pm@3.11.0)))
+      '@tiptap/extension-italic':
+        specifier: ^3.27.1
+        version: 3.27.1(@tiptap/core@3.11.0(@tiptap/pm@3.11.0))
       '@tiptap/extension-list':
         specifier: 3.11.0
         version: 3.11.0(@tiptap/core@3.11.0(@tiptap/pm@3.11.0))(@tiptap/pm@3.11.0)
@@ -1608,10 +1611,10 @@ packages:
       '@tiptap/core': ^3.11.0
       '@tiptap/pm': ^3.11.0
 
-  '@tiptap/extension-italic@3.11.0':
-    resolution: {integrity: sha512-WP6wL2b//8bLVdeUCWOpYA7nUStvrAMMD0nRn0F9CEW+l7vH6El2PZFhHmJ9uqXo5MnyugBpARiwgxfoAlef5w==}
+  '@tiptap/extension-italic@3.27.1':
+    resolution: {integrity: sha512-jGGeyn9uRUnNjSTHpbqhiGsp6KaYTSbV09jDXPJI9cDwfV9hpugLvpaCZd0BMBbhU1B1W6kOfX0BE15qX/HQfA==}
     peerDependencies:
-      '@tiptap/core': ^3.11.0
+      '@tiptap/core': 3.27.1
 
   '@tiptap/extension-link@3.11.0':
     resolution: {integrity: sha512-RoUkGqowVMKLE76KktNOGhzNMyKtwrSDRqeYCe1ODPuOMZvDGexOE8cIuA4A1ODkgN6ji9qE/9Sf8uhpZdH39Q==}
@@ -5956,7 +5959,7 @@ snapshots:
       '@tiptap/core': 3.11.0(@tiptap/pm@3.11.0)
       '@tiptap/pm': 3.11.0
 
-  '@tiptap/extension-italic@3.11.0(@tiptap/core@3.11.0(@tiptap/pm@3.11.0))':
+  '@tiptap/extension-italic@3.27.1(@tiptap/core@3.11.0(@tiptap/pm@3.11.0))':
     dependencies:
       '@tiptap/core': 3.11.0(@tiptap/pm@3.11.0)
 
@@ -6068,7 +6071,7 @@ snapshots:
       '@tiptap/extension-hard-break': 3.11.0(@tiptap/core@3.11.0(@tiptap/pm@3.11.0))
       '@tiptap/extension-heading': 3.11.0(@tiptap/core@3.11.0(@tiptap/pm@3.11.0))
       '@tiptap/extension-horizontal-rule': 3.11.0(@tiptap/core@3.11.0(@tiptap/pm@3.11.0))(@tiptap/pm@3.11.0)
-      '@tiptap/extension-italic': 3.11.0(@tiptap/core@3.11.0(@tiptap/pm@3.11.0))
+      '@tiptap/extension-italic': 3.27.1(@tiptap/core@3.11.0(@tiptap/pm@3.11.0))
       '@tiptap/extension-link': 3.11.0(@tiptap/core@3.11.0(@tiptap/pm@3.11.0))(@tiptap/pm@3.11.0)
       '@tiptap/extension-list': 3.11.0(@tiptap/core@3.11.0(@tiptap/pm@3.11.0))(@tiptap/pm@3.11.0)
       '@tiptap/extension-list-item': 3.11.0(@tiptap/extension-list@3.11.0(@tiptap/core@3.11.0(@tiptap/pm@3.11.0))(@tiptap/pm@3.11.0))
