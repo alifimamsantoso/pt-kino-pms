@@ -1,0 +1,50 @@
+export const db = [
+  {
+    id: 1,
+    projectId: 1,
+    inventoryCode: 'INV-001',
+    assetName: 'Fire Alarm Panel',
+    category: 'Electrical',
+    vendor: 'PT Dastek',
+    quantity: 12,
+    unit: 'Unit',
+    stockIn: 12,
+    stockOut: 0,
+    stockBalance: 12,
+    location: 'Warehouse A',
+    status: 'Available',
+    lastUpdate: '2026-06-28'
+  },
+  {
+    id: 2,
+    projectId: 1,
+    inventoryCode: 'INV-002',
+    assetName: 'Smoke Detector',
+    category: 'Electrical',
+    vendor: 'PT Dastek',
+    quantity: 20,
+    unit: 'Unit',
+    stockIn: 20,
+    stockOut: 5,
+    stockBalance: 15,
+    location: 'Site Storage',
+    status: 'Partial',
+    lastUpdate: '2026-06-29'
+  },
+  {
+    id: 3,
+    projectId: 2,
+    inventoryCode: 'INV-003',
+    assetName: 'Conduit Pipe',
+    category: 'Civil',
+    vendor: 'PT ABC',
+    quantity: 150,
+    unit: 'Meter',
+    stockIn: 150,
+    stockOut: 45,
+    stockBalance: 105,
+    location: 'Warehouse B',
+    status: 'Available',
+    lastUpdate: '2026-06-30'
+  }
+]
