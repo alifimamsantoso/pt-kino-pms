@@ -40,6 +40,7 @@
     "@mui/lab": "7.0.1-beta.19",
     "@mui/material": "7.3.5",
     "@mui/material-nextjs": "7.3.5",
+    "@mui/utils": "^9.1.1",
     "@prisma/client": "6.19.0",
     "@reduxjs/toolkit": "2.10.1",
     "@tanstack/match-sorter-utils": "8.19.4",
