@@ -46,6 +46,7 @@
     "@tanstack/match-sorter-utils": "8.19.4",
     "@tanstack/react-table": "8.21.3",
     "@tiptap/core": "3.11.0",
+    "@tiptap/extension-bold": "^3.27.1",
     "@tiptap/extension-color": "3.11.0",
     "@tiptap/extension-italic": "^3.27.1",
     "@tiptap/extension-list": "3.11.0",
