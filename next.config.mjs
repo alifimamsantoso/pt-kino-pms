@@ -2,10 +2,6 @@
 const nextConfig = {
   basePath: process.env.BASEPATH,
 
-  eslint: {
-    ignoreDuringBuilds: true
-  },
-
   redirects: async () => {
     return [
       {
